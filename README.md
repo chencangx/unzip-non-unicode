@@ -3,3 +3,4 @@
 由于zip格式中并没有指定编码格式，Windows下生成的zip文件中的编码是GBK/GB2312等，而Linux下的默认编码是UTF8  
 使用命令行`java -jar unzip.jar src.zip /destfolder/`  
 - 密码并未使用*替代
+- 未加入压缩文件完整性校验
